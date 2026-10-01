@@ -35,3 +35,15 @@ main{
 .logo span{
     padding: 10px;
 }
+
+.titulo{
+    background-image: linear-gradient(to right, #95ff00, purple, #95ff00);
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    background-clip: text;
+}
+
+.titulo:hover{
+    animation: acender 0.5s forwards;
+}
