@@ -1,5 +1,5 @@
 //destruct
-const GameCard = (titulo,preco,imagem) => {
+const GameCard = ({titulo,preco,imagem}) => {
   return (
     <div className="bg-black rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:border-4 hover:border-[#95ff00]">
       <img src={imagem} alt={titulo} className="w-full h-[250px] objetc-cover"></img>
